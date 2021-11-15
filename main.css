@@ -1,0 +1,50 @@
+/* Write your CSS code in this file */
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+html{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    margin: 30px;
+    background-color: black;
+}
+
+body{
+    font-family: 'Gotham', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 3em;
+    background-image: linear-gradient(#00ccff, rgb(202, 223, 230), #ffffff);
+}
+
+#previousGuesses{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.guess {
+    display: flex;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 20px 20px;
+    margin: 20px 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#hint {
+    margin: 10px;
+    padding: 10px;
+}
