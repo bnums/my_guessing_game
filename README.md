@@ -1,1 +1,1 @@
-This is a repo fo practicing git and uploading my guessing game project
+This is a repo for practicing git and uploading my guessing game project
